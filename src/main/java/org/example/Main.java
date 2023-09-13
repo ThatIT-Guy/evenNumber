@@ -9,7 +9,9 @@ public class Main {
         int num = sc.nextInt();
         for (int i = 1; i <= num; i++) {
             if (i%2 == 0) {
-                System.out.println(i);
+                System.out.println(i + ": number is even");
+            }else {
+                System.out.println(i + ": number is odd");
             }
         }
     }
